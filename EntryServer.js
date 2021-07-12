@@ -14,7 +14,7 @@ const io = require('socket.io')(http, {
 		methods: ["GET", "POST"]
 	}
 });
-const voronoi = require("./VAST/lib/voronoi/vast_voro.js");
+const voronoi = require("./voronoi/vast_voro.js");
 
 var voro = new voronoi();
 
